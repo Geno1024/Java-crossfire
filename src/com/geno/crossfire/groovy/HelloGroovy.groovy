@@ -1,19 +1,17 @@
-package com.geno.crossfire.kotlin
+package com.geno.crossfire.groovy
 
-import com.geno.crossfire.groovy.HelloGroovy
 import com.geno.crossfire.java.HelloJava
+import com.geno.crossfire.kotlin.HelloKotlin
 import com.geno.crossfire.scala.HelloScala
 
-object HelloKotlin
+class HelloGroovy
 {
-    @JvmStatic
-    fun hello()
+    static void hello()
     {
-        println("Hello Kotlin!")
+        println "Hello Groovy!"
     }
 
-    @JvmStatic
-    fun main(args: Array<String>)
+    static void main(String[] array)
     {
         HelloJava.hello()
         HelloKotlin.hello()
