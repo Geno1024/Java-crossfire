@@ -1,6 +1,7 @@
 package com.geno.crossfire.kotlin
 
 import com.geno.crossfire.java.HelloJava
+import com.geno.crossfire.scala.HelloScala
 
 object HelloKotlin
 {
@@ -15,5 +16,6 @@ object HelloKotlin
     {
         HelloJava.hello()
         HelloKotlin.hello()
+        HelloScala.hello()
     }
 }

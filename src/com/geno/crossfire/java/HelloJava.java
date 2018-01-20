@@ -1,6 +1,7 @@
 package com.geno.crossfire.java;
 
 import com.geno.crossfire.kotlin.HelloKotlin;
+import com.geno.crossfire.scala.HelloScala;
 
 public class HelloJava
 {
@@ -13,5 +14,6 @@ public class HelloJava
     {
         HelloJava.hello();
         HelloKotlin.hello();
+        HelloScala.hello();
     }
 }
